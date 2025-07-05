@@ -1,0 +1,10 @@
+exoscale_api_key = "EXO7082c3b2642310d61c291756"
+exoscale_secret_key = "bEp31q3P_CY6hu0aISpBIdx8H962HiLit22ROuM2cnc"
+exoscale_zone_1 = "bg-sof-1"
+exoscale_zone_2 = "ch-gva-2"
+exoscale_image_name = "Linux Ubuntu 22.04 LTS 64-bit"
+exoscale_instance_type = "standard.micro"
+exoscale_disk_size = 10
+exoscale_ssh_keys = "tony-keys"
+exoscale_network_id = "create it again"
+exoscale_security_group_id = "1f813be9-2ae8-459d-9796-16175fc85e1b"
