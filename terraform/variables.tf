@@ -30,10 +30,26 @@ variable "exoscale_ssh_keys" {
   description = "ssh keys id"
 }
 
-variable "exoscale_network_id" {
+variable "exoscale_existing_private_network_id" {
+  description = "network id"
+}
+
+variable "exoscale_private_network_name" {
   description = "private network id"
 }
 
 variable "exoscale_security_group_id" {
   description = "security group id"
+}
+
+variable "exoscale_private_network_netmask" {
+  description = "netmask"
+}
+
+variable "exoscale_private_network_start_ip" {
+  description = "start ip"
+}
+
+variable "exoscale_private_network_end_ip" {
+  description = "end ip"
 }
